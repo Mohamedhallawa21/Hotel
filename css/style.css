@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 27px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+/* utility clases */
+.container{
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+    margin: auto;
+}
+.text_primary{
+    color: #F7C08A;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #333;
+    background-color: #fff;
+}
+.bg_dark{
+    background-color: #333;
+    color: #fff;
+}
+.btn_light{
+    background-color: #fff;
+    color: #333;
+    display: inline-block;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn_light:hover{
+    color: #fff;
+    background-color: #333;
+}
+/* navbar */
+#navbar{
+    background-color: #333 ;
+    color: #fff;
+    overflow: auto;
+}
+#navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top:10px;
+    margin-left: 10px;
+    float: left;
+}
+#navbar h1 {
+    padding-top: 20px;
+    float: left;
+    padding-left: 10px;
+}
+#navbar h1 a:hover{
+    color: #F7C08A;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar li {
+    display: inline-block;
+}
+#navbar ul li a {
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+#navbar ul li a:hover{
+    background-color: #444;
+    color: #F7C08A;
+}
+#navbar ul .current{
+    background-color: #444;
+    color: #F7C08A;
+}
+/* showcase section */
+#showcase{
+    background-image: url("../img/showcase.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+#showcase .showcase_cont{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase_cont h1{
+    font-size: 60px;
+    line-height: 30px;
+}
+.text_primary{
+    color: #F7C08A;
+}
+#showcase .showcase_cont p{
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-size: 30px;
+}
+/* Home info section  */
+
+#home_info{
+    height: 400px;
+   
+}
+#home_info .info_img{
+    background-image: url(../img/test-bg.jpg);
+    width: 50%;
+    float: left;
+    min-height: 100%;
+}
+#home_info .info_cont{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 80px;
+}
+/* Features section */
+#feature .card{
+    display: inline-block;
+    width: 33%;
+    padding: 50px;
+    text-align: center;
+}
+#feature .card i{
+margin-bottom: 10px;
+font-size: 40px;
+}
+/* footer  */
+#footer{
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+/* --------------------------------About page----------------------*/
+/* info_Section */
+#about_info{
+    padding: 20px ;
+}
+#about_info .info_right{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    min-height: 100%;
+}
+#about_info .info_right img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+#about_info .info_left{
+    display: inline-block;
+    width: 49%;
+    min-height: 100%;
+}
+#about_info .info_left .l_heading{
+    font-size: 40px;
+}
+/* Testimonial */
+#testimonial{
+    height: 600px;
+    background-image: url(../img/test-bg.jpg);
+    background-size: cover;
+    padding-top: 100px ;
+}
+#testimonial h2{
+    color: #fff;
+    font-size: 40px ;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+#testimonial .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: .7 ;
+}
+#testimonial .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/* --------------------------------Contact page----------------------*/
+/* form section  */
+#contact_form{
+padding: 30px 0;
+}
+#contact_form .form_group{
+    margin-bottom: 20px;
+}
+#contact_form .form_group label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact_form .form_group input,#contact_form .form_group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+
+}
+#contact_form .form_group textarea{
+    height: 200px;
+}
+#feature .card a {
+    color: #fff;
+}
